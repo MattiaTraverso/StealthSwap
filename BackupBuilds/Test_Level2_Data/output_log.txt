@@ -1,0 +1,199 @@
+Initialize engine version: 2017.1.0f3 (472613c02cf7)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1070 (ID=0x1b81)
+    Vendor:   NVIDIA
+    VRAM:     8119 MB
+    Driver:   22.21.13.8205
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\matti\Desktop\StealthSwap\BackupBuilds\Test_Level2_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\matti\Desktop\StealthSwap\BackupBuilds\Test_Level2_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\matti\Desktop\StealthSwap\BackupBuilds\Test_Level2_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\matti\Desktop\StealthSwap\BackupBuilds\Test_Level2_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\matti\Desktop\StealthSwap\BackupBuilds\Test_Level2_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\matti\Desktop\StealthSwap\BackupBuilds\Test_Level2_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\matti\Desktop\StealthSwap\BackupBuilds\Test_Level2_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\matti\Desktop\StealthSwap\BackupBuilds\Test_Level2_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\matti\Desktop\StealthSwap\BackupBuilds\Test_Level2_Data\Managed\UnityEngine.Timeline.dll (this message is harmless)
+Loading C:\Users\matti\Desktop\StealthSwap\BackupBuilds\Test_Level2_Data\Managed\UnityEngine.Timeline.dll into Unity Child Domain
+Platform assembly: C:\Users\matti\Desktop\StealthSwap\BackupBuilds\Test_Level2_Data\Managed\System.dll (this message is harmless)
+Platform assembly: C:\Users\matti\Desktop\StealthSwap\BackupBuilds\Test_Level2_Data\Managed\System.Core.dll (this message is harmless)
+- Completed reload, in  0.016 seconds
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 0.817579 ms
+Setting up 4 worker threads for Enlighten.
+  Thread -> id: 5130 -> priority: 1 
+  Thread -> id: 773c -> priority: 1 
+  Thread -> id: 3924 -> priority: 1 
+  Thread -> id: e14 -> priority: 1 
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Level2/EnemyContainer/Enemy/ShittyCone"
+ 
+(Filename:  Line: 0)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.269221 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 371.
+Total: 0.091943 ms (FindLiveObjects: 0.024037 ms CreateObjectMapping: 0.020431 ms MarkObjects: 0.042666 ms  DeleteObjects: 0.004507 ms)
+
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Level2/EnemyContainer/Enemy/ShittyCone"
+ 
+(Filename:  Line: 0)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.236770 ms
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 371.
+Total: 0.118986 ms (FindLiveObjects: 0.039061 ms CreateObjectMapping: 0.008713 ms MarkObjects: 0.066103 ms  DeleteObjects: 0.004507 ms)
+
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Level2/EnemyContainer/Enemy/ShittyCone"
+ 
+(Filename:  Line: 0)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.318197 ms
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 371.
+Total: 0.106967 ms (FindLiveObjects: 0.039962 ms CreateObjectMapping: 0.007812 ms MarkObjects: 0.054084 ms  DeleteObjects: 0.004807 ms)
+
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Level2/EnemyContainer/Enemy/ShittyCone"
+ 
+(Filename:  Line: 0)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.249390 ms
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 371.
+Total: 0.118084 ms (FindLiveObjects: 0.042967 ms CreateObjectMapping: 0.007812 ms MarkObjects: 0.061596 ms  DeleteObjects: 0.005408 ms)
+
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Level2/EnemyContainer/Enemy/ShittyCone"
+ 
+(Filename:  Line: 0)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.206122 ms
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 371.
+Total: 0.097051 ms (FindLiveObjects: 0.028544 ms CreateObjectMapping: 0.008413 ms MarkObjects: 0.053183 ms  DeleteObjects: 0.006309 ms)
+
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Level2/EnemyContainer/Enemy/ShittyCone"
+ 
+(Filename:  Line: 0)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.213934 ms
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 371.
+Total: 0.079925 ms (FindLiveObjects: 0.023737 ms CreateObjectMapping: 0.007511 ms MarkObjects: 0.043568 ms  DeleteObjects: 0.004807 ms)
+
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Level2/EnemyContainer/Enemy/ShittyCone"
+ 
+(Filename:  Line: 0)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.216939 ms
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 371.
+Total: 0.077821 ms (FindLiveObjects: 0.010816 ms CreateObjectMapping: 0.021934 ms MarkObjects: 0.039962 ms  DeleteObjects: 0.004807 ms)
+
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Level2/EnemyContainer/Enemy/ShittyCone"
+ 
+(Filename:  Line: 0)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.291456 ms
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 371.
+Total: 0.122591 ms (FindLiveObjects: 0.053784 ms CreateObjectMapping: 0.010516 ms MarkObjects: 0.051380 ms  DeleteObjects: 0.006610 ms)
+
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Level2/EnemyContainer/Enemy/ShittyCone"
+ 
+(Filename:  Line: 0)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.258404 ms
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 371.
+Total: 0.106366 ms (FindLiveObjects: 0.029446 ms CreateObjectMapping: 0.023737 ms MarkObjects: 0.047774 ms  DeleteObjects: 0.005107 ms)
+
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Level2/EnemyContainer/Enemy/ShittyCone"
+ 
+(Filename:  Line: 0)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.253296 ms
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 371.
+Total: 0.118685 ms (FindLiveObjects: 0.030647 ms CreateObjectMapping: 0.023436 ms MarkObjects: 0.059192 ms  DeleteObjects: 0.004507 ms)
+
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Level2/EnemyContainer/Enemy/ShittyCone"
+ 
+(Filename:  Line: 0)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.227756 ms
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 371.
+Total: 0.090141 ms (FindLiveObjects: 0.025840 ms CreateObjectMapping: 0.021032 ms MarkObjects: 0.038159 ms  DeleteObjects: 0.004807 ms)
+
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Level2/EnemyContainer/Enemy/ShittyCone"
+ 
+(Filename:  Line: 0)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.226854 ms
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 371.
+Total: 0.169164 ms (FindLiveObjects: 0.042065 ms CreateObjectMapping: 0.037859 ms MarkObjects: 0.083831 ms  DeleteObjects: 0.004807 ms)
+
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Level2/EnemyContainer/Enemy/ShittyCone"
+ 
+(Filename:  Line: 0)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.293859 ms
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 371.
+Total: 0.120488 ms (FindLiveObjects: 0.024037 ms CreateObjectMapping: 0.024939 ms MarkObjects: 0.066403 ms  DeleteObjects: 0.004507 ms)
+
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Level2/EnemyContainer/Enemy/ShittyCone"
+ 
+(Filename:  Line: 0)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.184789 ms
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 371.
+Total: 0.109371 ms (FindLiveObjects: 0.038460 ms CreateObjectMapping: 0.022234 ms MarkObjects: 0.043267 ms  DeleteObjects: 0.004807 ms)
+

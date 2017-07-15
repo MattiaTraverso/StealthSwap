@@ -28,8 +28,8 @@ public class SpawnBulletOnClick : MonoBehaviour {
         Ray ray = new Ray( _playerPosition, _mousePosition - _playerPosition );
         _lastRay = ray;
 
-        GameObject.Instantiate( GC.instance.BulletPrefab, _player.transform.position, Quaternion.identity );
-        Rigidbody rigidBody = GC.instance.BulletPrefab.GetComponent<Rigidbody>();
+        GameObject bullet = GameObject.Instantiate( GC.instance.BulletPrefab, _player.transform.position, Quaternion.identity );
+        Rigidbody rigidBody = bullet.GetComponent<Rigidbody>();
         rigidBody.AddForce( ray.direction * SpawnForce, ForceMode );
     }
 
