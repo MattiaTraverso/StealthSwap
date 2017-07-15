@@ -207,8 +207,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69f9fdf42fc0f9a4298474264cc74239, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxEnergy: 2
-  maxHits: 3
+  maxEnergy: 4
+  maxHits: 6
   fireSpeed: 10
 --- !u!135 &135144938745433262
 SphereCollider:

@@ -11,6 +11,9 @@ public class SimpleTeleport : MonoBehaviour, ITeleportCollider
         transform.position = player.transform.position; // lol
 
         player.TeleportTo(playerNewPos);
+
+        SimpleTween st =  GetComponent<SimpleTween>();
+        if (st != null) GameObject.Destroy( st );
     }
 
     public void PlayerMovedFromHere(Player player)
