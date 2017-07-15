@@ -42,6 +42,8 @@ class PlayerInputs : MonoBehaviour
 
             start = hit.point + hit.normal * bulletRad;
             dir = dir - 2f * hit.normal * Vector3.Dot(hit.normal, dir);
+
+            ++hitsCount;
         }
 
         aimFinalDir = dir;
