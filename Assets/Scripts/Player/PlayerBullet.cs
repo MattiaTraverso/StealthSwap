@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 
 [RequireComponent(typeof(SphereCollider))]
 public class PlayerBullet : MonoBehaviour
@@ -9,11 +10,14 @@ public class PlayerBullet : MonoBehaviour
         Fire,
         EnergyDepleted,
         MaxHitsReached,
+        Teleport,
     }
 
     public float maxEnergy = 1f;
     public int maxHits = 3;
     public float fireSpeed = 10f;
+
+    [NonSerialized] public Player myPlayer;
 
     private FSMObject<PlayerBullet, State> fsm;
     private Rigidbody rb;
@@ -65,6 +69,13 @@ public class PlayerBullet : MonoBehaviour
     private void MaxHitsReachedExit(PlayerBullet self, float time)
     { }
 
+    private void TeleportEnter(PlayerBullet self, float time)
+    { }
+    private void TeleportExec(PlayerBullet self, float time)
+    { fsm.State = State.Idle; }
+    private void TeleportExit(PlayerBullet self, float time)
+    { }
+
     void Awake()
     {
         rb = GetComponent<Rigidbody>();
@@ -76,6 +87,7 @@ public class PlayerBullet : MonoBehaviour
         fsm.AddState(State.Fire, FireEnter, FireExec, FireExit);
         fsm.AddState(State.EnergyDepleted, EnergyDepletedEnter, EnergyDepletedExec, EnergyDepletedExit);
         fsm.AddState(State.MaxHitsReached, MaxHitsReachedEnter, MaxHitsReachedExec, MaxHitsReachedExit);
+        fsm.AddState(State.Teleport, TeleportEnter, TeleportExec, TeleportExit);
 
         fsm.State = State.Idle;
 
@@ -100,7 +112,18 @@ public class PlayerBullet : MonoBehaviour
         if (fsm.State != State.Fire)
             return;
 
-        if (++hitsCount == maxHits)
+        ++hitsCount;
+
+        var teleportCollider = collision.collider.GetComponentInParent<ITeleportCollider>();
+        if (teleportCollider != null)
+        {
+            fsm.State = State.MaxHitsReached;
+            myPlayer.BeforeTeleport(teleportCollider);
+            teleportCollider.ApplyTeleport(myPlayer);
+            return;
+        }
+
+        if (hitsCount == maxHits)
         {
             fsm.State = State.MaxHitsReached;
             return;
