@@ -11,11 +11,13 @@ public class Player : MonoBehaviour
     private float aimAssistOpacity = 0f;
 
     private int shotsCount = 0;
+    private ITeleportCollider lastTeleport;
 
     void Awake()
     {
         inputs = GetComponent<PlayerInputs>();
         aimAssistMat = aimAssistant.material;
+        bullet.myPlayer = this;
     }
 
     void Update()
@@ -43,5 +45,18 @@ public class Player : MonoBehaviour
             aimAssistOpacity = Mathf.MoveTowards(aimAssistOpacity, 0f, Time.deltaTime * 4f);
             aimAssistMat.SetColor("_TintColor", new Color(1f, 1f, 1f, aimAssistOpacity));
         }
+    }
+
+    public void BeforeTeleport(ITeleportCollider teleport)
+    {
+        if (lastTeleport != null)
+            lastTeleport.PlayerMovedFromHere(this);
+
+        lastTeleport = teleport;
+    }
+
+    public void TeleportTo(Vector3 position)
+    {
+        transform.position = position; // lol
     }
 }
