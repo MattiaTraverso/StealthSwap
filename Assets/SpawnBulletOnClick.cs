@@ -5,6 +5,7 @@ using UnityEngine;
 public class SpawnBulletOnClick : MonoBehaviour {
 
     public float SpawnForce = 100f;
+    public ForceMode ForceMode;
 
     private GameObject _player;
 
@@ -29,10 +30,7 @@ public class SpawnBulletOnClick : MonoBehaviour {
 
         GameObject.Instantiate( GC.instance.BulletPrefab, _player.transform.position, Quaternion.identity );
         Rigidbody rigidBody = GC.instance.BulletPrefab.GetComponent<Rigidbody>();
-        rigidBody.AddForce( ray.direction * SpawnForce, ForceMode.Impulse );
-
-        Debug.Log( ray.direction );
-
+        rigidBody.AddForce( ray.direction * SpawnForce, ForceMode );
     }
 
     //Debug

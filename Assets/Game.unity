@@ -689,6 +689,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SpawnForce: 10
+  ForceMode: 1
 --- !u!1 &2088303222
 GameObject:
   m_ObjectHideFlags: 0
